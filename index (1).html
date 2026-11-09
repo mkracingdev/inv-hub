@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#0b2545">
+<meta name="robots" content="noindex, nofollow">
+<title>Inventory Material</title>
+<style>
+  html, body { margin: 0; height: 100%; background: #0b2545; overflow: hidden; }
+  #app { position: fixed; inset: 0; width: 100%; height: 100%; border: 0; display: block; }
+  #muat { position: fixed; inset: 0; display: flex; align-items: center; justify-content: center; color: #fff;
+          font: 15px -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+          background: linear-gradient(135deg, #0b2545 0%, #13406e 60%, #1a5a92 100%); }
+  #muat.selesai { display: none; }
+</style>
+</head>
+<body>
+<div id="muat">Memuat Inventory Material...</div>
+<iframe id="app" title="Inventory Material" allow="clipboard-write"
+  src="https://script.google.com/macros/s/AKfycbx-_DmLgba-QpkWDS1fjW9JtgG34RP6qqNGKIe8ULRvVtrPPibjzRpvzxoUVeOrdDLFzA/exec"
+  onload="document.getElementById('muat').className='selesai'"></iframe>
+</body>
+</html>
